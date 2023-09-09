@@ -73,7 +73,8 @@
     "https://nouveau-europresse-com.ezproxy.hec.fr/*",
     "https://nouveau-europresse-com.proxy-bu1.u-bourgogne.fr/*",
     "https://nouveau-europresse-com.ezproxy.normandie-univ.fr/*",
-    "https://nouveau-europresse-com.bibdocs.u-cergy.fr/*"
+    "https://nouveau-europresse-com.bibdocs.u-cergy.fr/*",
+    "https://nouveau-europresse-com.acces-distant.bnu.fr/*"
   ],
   "background": {
     "scripts": [
@@ -556,6 +557,10 @@
           "AUTH_URL": "http://univ-smb.idm.oclc.org/login?url=https://nouveau.europresse.com/access/ip/default.aspx?un=savoieT_1"
         },
         {
+          "name" : "Université de Strasbourg", 
+          "AUTH_URL": "http://acces-distant.bnu.fr/login?url=http://nouveau.europresse.com/access/ip/default.aspx?un=bnus"
+        },
+        {
           "name": "Université de Technologie de Belfort-Montébliard",
           "AUTH_URL": "http://ezproxy.utbm.fr/login?url=https://nouveau.europresse.com/access/ip/default.aspx?un=UTBMT_2"
         },
@@ -566,7 +571,6 @@
         {
           "name": "Université de Versailles St-Quentin-en-Yvelines",
           "AUTH_URL": "https://ezproxy.universite-paris-saclay.fr/login?url=http://nouveau.europresse.com/access/ip/default.aspx?un=U031535T_1"
-        }
       ]
     }
   }
